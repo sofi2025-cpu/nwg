@@ -1,10 +1,9 @@
 # Template file for 'nwg-look'
 pkgname=nwg-look
-version=1.1.1
-revision=1
+version=1.1.0
+revision=2
 build_style=go
-# go_import_path=github.com/nwg-piotr/nwg-look
-go_import_path=" -R"
+go_import_path=github.com/nwg-piotr/nwg-look
 hostmakedepends="pkg-config"
 makedepends="cairo-devel gtk+3-devel libglib-devel pango-devel"
 depends="xcur2png"
