@@ -1,6 +1,6 @@
 --- a/tools.go
 +++ b/tools.go
-@@ -207,7 +207,7 @@ func readGsettings() {
+@@ -207,7 +207,7 @@
  			log.Infof("cursor-size: %v", gsettings.cursorSize)
  		}
  	} else {
@@ -9,7 +9,7 @@
  			gsettings.cursorSize)
  	}
  
-@@ -264,7 +264,7 @@ func readGsettings() {
+@@ -264,7 +264,7 @@
  			log.Infof("text-scaling-factor: %v", gsettings.textScalingFactor)
  		}
  	} else {
@@ -18,7 +18,7 @@
  			gsettings.textScalingFactor)
  	}
  
-@@ -329,7 +329,7 @@ func saveGsettingsBackup() {
+@@ -329,7 +329,7 @@
  			line := fmt.Sprintf("%s=%s", key, val)
  			lines = append(lines, line)
  		} else {
@@ -27,7 +27,7 @@
  		}
  	}
  	for _, key := range []string{"event-sounds", "input-feedback-sounds"} {
-@@ -338,7 +338,7 @@ func saveGsettingsBackup() {
+@@ -338,7 +338,7 @@
  			line := fmt.Sprintf("%s=%s", key, val)
  			lines = append(lines, line)
  		} else {
@@ -36,7 +36,7 @@
  		}
  	}
  
-@@ -433,7 +433,7 @@ func applyGsettings() {
+@@ -433,7 +433,7 @@
  	cmd = exec.Command("gsettings", "set", gnomeSchema, "text-scaling-factor", fmt.Sprintf("%f", gsettings.textScalingFactor))
  	err = cmd.Run()
  	if err != nil {
@@ -45,3 +45,4 @@
  	} else {
  		log.Infof("text-scaling-factor: %v OK", gsettings.textScalingFactor)
  	}
+
