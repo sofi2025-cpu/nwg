@@ -3,7 +3,9 @@ pkgname=nwg-look
 version=${VERSION}
 revision=1
 build_style=go
-#go_import_path=github.com/nwg-piotr/nwg-look
+# build_style=gnu-makefile
+# configure_args="--prefix=/usr"
+go_import_path=github.com/nwg-piotr/nwg-look
 hostmakedepends="pkg-config"
 makedepends="cairo-devel gtk+3-devel libglib-devel pango-devel"
 depends="xcur2png"
