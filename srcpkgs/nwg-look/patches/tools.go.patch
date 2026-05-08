@@ -1,5 +1,3 @@
-diff --git a/tools.go b/tools.go
-index 0516565..4b9ccb5 100644
 --- a/tools.go
 +++ b/tools.go
 @@ -207,7 +207,7 @@ func readGsettings() {
