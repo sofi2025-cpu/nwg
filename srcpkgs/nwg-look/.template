@@ -3,7 +3,7 @@ pkgname=nwg-look
 version=${VERSION}
 revision=1
 build_style=go
-go_import_path=github.com/nwg-piotr/nwg-look
+#go_import_path=github.com/nwg-piotr/nwg-look
 hostmakedepends="pkg-config"
 makedepends="cairo-devel gtk+3-devel libglib-devel pango-devel"
 depends="xcur2png"
@@ -14,6 +14,8 @@ homepage="https://github.com/nwg-piotr/nwg-look"
 changelog="https://github.com/nwg-piotr/nwg-look/releases"
 distfiles="https://github.com/nwg-piotr/nwg-look/archive/refs/tags/v${version}.tar.gz"
 checksum=${SHA256}
+
+go_ldflags="-X github.com/nwg-piotr/nwg-look/pkg/version.commitFromGit=${_git_commit} -X github.com/nwg-piotr/nwg-look/pkg/version.versionFromGit=v${version}"
 
 post_install() {
 	for lang in langs/*.json; do
