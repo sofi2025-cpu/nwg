@@ -52,6 +52,7 @@ distfiles="https://github.com/nwg-piotr/nwg-shell/archive/refs/tags/v${version}.
 checksum=a2c561735c3120328db8d0bd14a240980614b1129d64f51e2728f097631e1905
 make_check=no # No checks provided
 
+
 post_install() {
 	for f in scripts/*; do
 		vbin "$f"
