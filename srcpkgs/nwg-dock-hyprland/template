@@ -1,6 +1,6 @@
 # Template file for 'nwg-dock-hyprland'
 pkgname=nwg-dock-hyprland
-version=0.4.8
+version=0.4.9
 revision=1
 build_style=go
 go_import_path="github.com/nwg-piotr/nwg-dock-hyprland"
@@ -13,7 +13,7 @@ license="MIT"
 homepage="https://github.com/nwg-piotr/nwg-dock-hyprland"
 #changelog=""
 distfiles="https://github.com/nwg-piotr/nwg-dock-hyprland/archive/refs/tags/v${version}.tar.gz"
-checksum=3d4b6930d3a452596276c2b8ed22f3af356f650f2990ce3f5e2395407d4ecab4
+checksum=79da9ea99428708d66e9b95d1fb8f93d1edf4958a735ecbfe8baff9434c355fc
 
 post_install() {
 	vlicense LICENSE
