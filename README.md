@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://voidlinux.org/assets/img/void_bg.png" width="75" />
+
 <!-- # Void Linux Software Repository -->
 # 【 Unofficial package repository for Void Linux 】 
 
