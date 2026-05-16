@@ -2,6 +2,8 @@
 
 <img src="https://voidlinux.org/assets/img/void_bg.png" width="75" />
 
+<img width="450" height="auto" alt="void-linux" src="https://github.com/Kennel-Linux/nwg/blob/main/img/void-linux.png" />
+
 <!-- # Void Linux Software Repository -->
 ## 【 Unofficial package repository for Void Linux 】 
 
