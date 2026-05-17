@@ -108,3 +108,12 @@ sudo xbps-query -Rs nwg
 ```
 
 </details>
+<p align="center">
+  <a>
+	  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
+  </a>		  
+</p>
+
+<p align="center">
+	<a href="https://github.com/Kennel-Linux/nwg/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&logo=gitbook&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
+</p>
