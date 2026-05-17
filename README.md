@@ -80,7 +80,7 @@ sudo xbps-query -Rs nwg
 
 ### TODO
 
-- [x] Build and package Xlibre once a new version is released via GitHub Actions
+- [x] Build and package nwg once a new version is released via GitHub Actions
 - 
 
 <details>
