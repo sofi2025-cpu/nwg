@@ -1,6 +1,6 @@
 # Template file for 'nwg-displays'
 pkgname=nwg-displays
-version=0.4.2
+version=0.4.3
 revision=1
 build_style=python3-pep517
 hostmakedepends="python3-setuptools python3-wheel"
@@ -12,7 +12,7 @@ license="MIT"
 homepage="https://nwg-piotr.github.io/nwg-shell/nwg-displays"
 #changelog=""
 distfiles="https://github.com/nwg-piotr/nwg-displays/archive/refs/tags/v${version}.tar.gz"
-checksum=9e3cc0deb588a46211d34dda1dcd6991852d0be342e83a0e4ef017c37f7aa55b
+checksum=11edd0f5b8e2bf72f2ffd7c7ef65d8d6a5910151fff65b58ccaf9cd2565c641e
 make_check=no # No checks provided
 
 post_install() {
