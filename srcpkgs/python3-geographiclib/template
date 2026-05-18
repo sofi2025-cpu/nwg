@@ -9,7 +9,7 @@ short_desc="Python implementation of the geodesic routines"
 maintainer="Sofiya <sofiya@v.org>"
 license="MIT"
 homepage="https://geographiclib.sourceforge.io/"
-#changelog="https://github.com/geographiclib/geographiclib"
+changelog="https://github.com/geographiclib/geographiclib-python"
 distfiles="$SOURCEFORGE_SITE/geographiclib/distrib-Python/geographiclib-${version}.tar.gz"
 checksum=6a6545e6262d0ed3522e13c515713718797e37ed8c672c31ad7b249f372ef108
 
