@@ -23,8 +23,6 @@ jobs:
           pr_build_url: "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-jobs:
   update-versions:
     runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/heads/main' }}
