@@ -17,7 +17,7 @@ jobs:
         uses: aiKrice/homebrew-badgetizr@3.0.3
         with:
           pr_id: ${{ github.event.pull_request.number }}
-          configuration: .badgetizr.yml
+          configuration: ./badgetizr.yml
           pr_destination_branch: ${{ github.event.pull_request.base.ref }}
           pr_build_number: ${{ github.run_id }}
           pr_build_url: "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
