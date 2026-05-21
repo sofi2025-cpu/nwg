@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/Kennel-Linux/nwg/blob/main/img/void-linux.gif?raw=true" width="450" height="auto" />
+<img src="https://github.com/Kennel-Linux/nwg/blob/main/img/void-linux-3.gif?raw=true" width="450" height="auto" />
 <!-- <img width="450" height="auto" alt="void-linux" src="https://github.com/Kennel-Linux/nwg/blob/main/img/void-linux.gif" /> -->
 
 <!-- ## 【 Unofficial package repository for Void Linux 】 -->
