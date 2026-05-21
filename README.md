@@ -6,22 +6,22 @@
 	
 ### 【 Unofficial package repository 】
 
-![Platform](https://img.shields.io/badge/platform-Void%20Linux-478061?logo=linux&colorA=363a4f&)
+[![Platform](https://img.shields.io/badge/platform-Void%20Linux-478061?logo=linux&colorA=363a4f&)](#)
 [![x85_64-glibc](https://img.shields.io/badge/x86__64-glibc-478061?style=badge&colorA=363a4f&)](#)
 
 [![Build](https://img.shields.io/github/actions/workflow/status/Kennel-Linux/nwg/build.yml?style=flat-square&label=BUILD&logo=githubactions&logoColor=white&colorA=363a4f&)](https://github.com/Kennel-Linux/nwg/actions)
 [![Updates](https://img.shields.io/github/actions/workflow/status/Kennel-Linux/nwg/update.yml?style=flat-square&label=AUTO-UPDATE&logo=github&logoColor=white&colorA=363a4f&)](https://github.com/Kennel-Linux/nwg/actions)
 
-![GitHub](https://img.shields.io/github/license/Kennel-Linux/nwg?style=flat-square&label=License&colorA=363a4f&colorB=purple&logo=gitbook)
-![GitHub contributors](https://img.shields.io/github/contributors/Kennel-Linux/nwg?style=flat-square&colorA=363a4f&colorB=purple&logo=github&label=Contributors)
-![GitHub release (with filter)](https://img.shields.io/github/v/release/Kennel-Linux/nwg?style=flat-square&logo=github&label=Release&colorA=363a4f&colorB=purple)
-![GitHub issues](https://img.shields.io/github/issues-raw/Kennel-Linux/nwg?style=flat-square&label=Open%20Issues&logo=github&colorA=363a4f&colorB=purple)
-![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/Kennel-Linux/nwg?style=flat-square&label=Closed%20Issues&logo=github&colorA=363a4f&colorB=purple)
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Kennel-Linux/nwg/main?style=flat-square&label=Last%20Commit&logo=github&colorA=363a4f&colorB=purple)
+[![GitHub](https://img.shields.io/github/license/Kennel-Linux/nwg?style=flat-square&label=License&colorA=363a4f&colorB=purple&logo=gitbook)](#)
+[![GitHub contributors](https://img.shields.io/github/contributors/Kennel-Linux/nwg?style=flat-square&colorA=363a4f&colorB=purple&logo=github&label=Contributors)](#)
+[![GitHub release (with filter)](https://img.shields.io/github/v/release/Kennel-Linux/nwg?style=flat-square&logo=github&label=Release&colorA=363a4f&colorB=purple)](#)
+[![GitHub issues](https://img.shields.io/github/issues-raw/Kennel-Linux/nwg?style=flat-square&label=Open%20Issues&logo=github&colorA=363a4f&colorB=purple)](#)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/Kennel-Linux/nwg?style=flat-square&label=Closed%20Issues&logo=github&colorA=363a4f&colorB=purple)](#)
+[![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Kennel-Linux/nwg/main?style=flat-square&label=Last%20Commit&logo=github&colorA=363a4f&colorB=purple)](#)
 
 </div>
+<br>
 
-<br />
 <!-- ![Security Audit](https://img.shields.io/github/actions/workflow/status/Letdown2491/waypoint-gtk/security.yml?label=Security%20Audit&logo=github)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Platform](https://img.shields.io/badge/platform-Void%20Linux-478061?logo=linux) -->
