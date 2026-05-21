@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown="1">
   <a>
    <!-- <img width="450" height="auto" alt="void-linux" src="https://github.com/Kennel-Linux/nwg/blob/main/img/void-linux.gif" /> -->	  
    <img src="https://github.com/Kennel-Linux/nwg/blob/main/img/void-linux-3.gif?raw=true" width="450" height="auto" />
