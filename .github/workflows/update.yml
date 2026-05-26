@@ -28,7 +28,7 @@ jobs:
     - run: bash ./srcpkgs/nwg-hello/update.sh
     - run: bash ./srcpkgs/nwg-icon-picker/update.sh
     - run: bash ./srcpkgs/nwg-launchers/update.sh
-    # - run: bash ./srcpkgs/nwg-look/update.sh
+    - run: bash ./srcpkgs/nwg-look/update.sh
     - run: bash ./srcpkgs/nwg-menu/update.sh
     - run: bash ./srcpkgs/nwg-panel/update.sh
     - run: bash ./srcpkgs/nwg-readme-browser/update.sh
