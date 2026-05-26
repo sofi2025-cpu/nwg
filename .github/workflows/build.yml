@@ -48,8 +48,7 @@ jobs:
           env -u XBPS_TARGET_ARCH xbps-install -Syu xbps
           env -u XBPS_TARGET_ARCH xbps-install -yu
           env -u XBPS_TARGET_ARCH xbps-install -y sudo bash curl grep jq zip unzip git github-cli xtools
-          useradd -G xbuilder -M builder 
-          # -s $(which bash)
+          useradd -G xbuilder -M builder -s $(which bash)
 
       - name: Checkout nwg
         uses: actions/checkout@v6
@@ -173,6 +172,5 @@ jobs:
             ./hostdir/binpkgs/*.xbps
             ./hostdir/binpkgs/*.sig2
             ./hostdir/binpkgs/*repodata
-
-#            ./hostdir/binpkgs/*.sha256sum
-#            ./hostdir/binpkgs/*.sha512sum
+            # ./hostdir/binpkgs/*.sha256sum
+            # ./hostdir/binpkgs/*.sha512sum
