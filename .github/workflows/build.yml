@@ -43,12 +43,13 @@ jobs:
     steps:
       - name: Prep container
         run: |
+          # switch to repo-ci mirror
           mkdir -p /etc/xbps.d && cp /usr/share/xbps.d/*-repository-*.conf /etc/xbps.d/
           sed -i 's|repo-default|repo-ci|g' /etc/xbps.d/*-repository-*.conf
-          env -u XBPS_TARGET_ARCH xbps-install -Syu xbps
-          env -u XBPS_TARGET_ARCH xbps-install -yu
-          env -u XBPS_TARGET_ARCH xbps-install -y sudo bash curl grep jq zip unzip git github-cli xtools
-          useradd -G xbuilder -M builder -s $(which bash)
+          # install dependencies
+          xbps-install -Syu xbps && xbps-install -yu && xbps-install -y sudo bash curl grep jq zip unzip git github-cli xtools
+          # create non-root user
+          useradd -G xbuilder -M builder
 
       - name: Checkout nwg
         uses: actions/checkout@v6
