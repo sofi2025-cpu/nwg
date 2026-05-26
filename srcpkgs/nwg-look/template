@@ -3,8 +3,6 @@ pkgname=nwg-look
 version=1.1.1
 revision=1
 build_style=go
-# build_style=gnu-makefile
-# configure_args="--prefix=/usr"
 go_import_path=github.com/nwg-piotr/nwg-look
 hostmakedepends="pkg-config"
 makedepends="cairo-devel gtk+3-devel libglib-devel pango-devel"
@@ -21,6 +19,7 @@ post_install() {
 	for lang in langs/*.json; do
 		vinstall ${lang} 644 usr/share/nwg-look/langs
 	done
+
 	vinstall stuff/main.glade 644 usr/share/nwg-look
 	vinstall stuff/nwg-look.desktop 644 usr/share/applications
 	vinstall stuff/nwg-look.svg 644 usr/share/pixmaps
