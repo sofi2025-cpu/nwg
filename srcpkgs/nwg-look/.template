@@ -3,8 +3,6 @@ pkgname=nwg-look
 version=${VERSION}
 revision=1
 build_style=go
-# build_style=gnu-makefile
-# configure_args="--prefix=/usr"
 go_import_path=github.com/nwg-piotr/nwg-look
 hostmakedepends="pkg-config"
 makedepends="cairo-devel gtk+3-devel libglib-devel pango-devel"
@@ -17,15 +15,14 @@ changelog="https://github.com/nwg-piotr/nwg-look/releases"
 distfiles="https://github.com/nwg-piotr/nwg-look/archive/refs/tags/v${version}.tar.gz"
 checksum=${SHA256}
 
-go_ldflags="-X github.com/nwg-piotr/nwg-look/pkg/version.commitFromGit=${_git_commit} -X github.com/nwg-piotr/nwg-look/pkg/version.versionFromGit=v${version}"
-
 post_install() {
+	vinstall stuff/main.glade 644 /usr/share/nwg-look
+	vinstall stuff/nwg-look.desktop 644 /usr/share/applications
+	vinstall stuff/nwg-look.svg 644 /usr/share/pixmaps
+
 	for lang in langs/*.json; do
-		vinstall ${lang} 644 usr/share/nwg-look/langs
+		vinstall ${lang} 644 /usr/share/nwg-look/langs
 	done
-	vinstall stuff/main.glade 644 usr/share/nwg-look
-	vinstall stuff/nwg-look.desktop 644 usr/share/applications
-	vinstall stuff/nwg-look.svg 644 usr/share/pixmaps
-	vdoc README.md
+
 	vlicense LICENSE
 }
