@@ -15,6 +15,7 @@ changelog="https://github.com/nwg-piotr/nwg-look/releases"
 distfiles="https://github.com/nwg-piotr/nwg-look/archive/refs/tags/v${version}.tar.gz"
 checksum=568c5efe443892d74ffce6cf8ac7db2aea6071be70d97d3ba7c5efd8b351e601
 
+
 post_install() {
 	for lang in langs/*.json; do
 		vinstall ${lang} 644 usr/share/nwg-look/langs
