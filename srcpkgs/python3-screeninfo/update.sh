@@ -7,7 +7,7 @@ printf "Checking latest version\n"
 __dir="$(dirname "${BASH_SOURCE[0]}")"
 
 TPL=${__dir}/template
-REPO="nwg-piotr/nwg-clipman"
+REPO="rr-/screeninfo"
 
 LATEST_VERSION=$(gh release list --repo ${REPO} --json name,tagName,isLatest --jq '.[] | select(.isLatest)|.tagName')
 export VERSION=${LATEST_VERSION#"v"}
@@ -25,4 +25,4 @@ rm ./${VERSION}.tar.gz
 sed -i "s/^version=.*/version=$VERSION/" "$TPL"
 sed -i "s/^checksum=.*/checksum=${SHA256}/" "$TPL"
 
-printf "nwg-clipman template updated\n"
+printf "python3-geographiclib updated\n"
