@@ -86,12 +86,15 @@ sudo xbps-query -Rs nwg
 
 <details>
 <summary><b>repo-key</b></summary>
+<br/>
 
+```
+sudo mkdir -p /var/db/xbps/keys
+sudo wget -O /var/db/xbps/keys/00:ca:42:57:c9:c0:9a:ec:94:b4:7d:97:e5:a9:aa:1e.plist \
+  https://github.com/Kennel-Linux/nwg/raw/refs/heads/main/repo-keys/x86_64/00:ca:42:57:c9:c0:9a:ec:94:b4:7d:97:e5:a9:aa:1e.plist
+```
+  
 > repo-key `00:ca:42:57:c9:c0:9a:ec:94:b4:7d:97:e5:a9:aa:1e.plist`
->>  ```
->>   cp ./repo-keys/x86_64/00:ca:42:57:c9:c0:9a:ec:94:b4:7d:97:e5:a9:aa:1e.plist /var/db/xbps/keys/00:ca:42:57:c9:c0:9a:ec:94:b4:7d:97:e5:a9:aa:1e.plist
->>  ```
-
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
