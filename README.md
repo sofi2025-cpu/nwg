@@ -14,7 +14,7 @@
 
 [![GitHub](https://img.shields.io/github/license/Kennel-Linux/nwg?style=flat-square&label=License&colorA=363a4f&colorB=purple&logo=gitbook)](#)
 [![GitHub contributors](https://img.shields.io/github/contributors/Kennel-Linux/nwg?style=flat-square&colorA=363a4f&colorB=purple&logo=github&label=Contributors)](#)
-[![GitHub release (with filter)](https://img.shields.io/github/v/release/Kennel-Linux/nwg?style=flat-square&logo=github&label=Release&colorA=363a4f&colorB=purple)](#)
+[![GitHub release (with filter)](https://img.shields.io/github/v/release/Kennel-Linux/nwg?style=flat-square&logo=github&label=Release&colorA=363a4f&colorB=purple)](https://github.com/Kennel-Linux/nwg/releases/)
 [![GitHub issues](https://img.shields.io/github/issues-raw/Kennel-Linux/nwg?style=flat-square&label=Open%20Issues&logo=github&colorA=363a4f&colorB=purple)](#)
 [![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/Kennel-Linux/nwg?style=flat-square&label=Closed%20Issues&logo=github&colorA=363a4f&colorB=purple)](#)
 [![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Kennel-Linux/nwg/main?style=flat-square&label=Last%20Commit&logo=github&colorA=363a4f&colorB=purple)](#)
