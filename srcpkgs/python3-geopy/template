@@ -1,6 +1,6 @@
 # Template file for 'python3-geopy'
 pkgname=python3-geopy
-version=2.4.1
+version=2.5.0
 revision=2
 build_style=python3-pep517
 hostmakedepends="pkg-config python3-setuptools python3-wheel python3-pip
@@ -14,7 +14,7 @@ license="MIT"
 homepage="https://github.com/geopy/geopy"
 #changelog=""
 distfiles="https://github.com/geopy/geopy/archive/refs/tags/${version}.tar.gz"
-checksum=a231629d166b58b0d557fc453374374d1fe0f3aff205b34bd8196e62ec285c55
+checksum=b4c5adc5189e792ec8d286f370d1328c7ec5532ba1b01f68999ed00db0138dc5
 
 do_check() {
 	python3 -m pytest test -v \
