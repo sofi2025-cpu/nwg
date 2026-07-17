@@ -1,4 +1,4 @@
-name: Build and Release nwg Void Linux Packages
+name: Build and Release nwg v2
 
 env:
   TAG: workflow-${{ github.run_number }}
